@@ -4328,7 +4328,7 @@ var worker_default = {
               }
             });
           default:
-            url.hostname = "www.youtube.com/";
+            url.hostname = "www.youtube.com";
             url.protocol = "https:";
             request = new Request(url, request);
             return await fetch(request);
